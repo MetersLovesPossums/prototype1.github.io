@@ -1,1 +1,94 @@
+/*color library: 
+#91b359 grass/background
+#844311 hair/header*/
+*{background-color: #91b359}
+.top {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around; 
+	background-color:#844311;
+}
+h1{
+  font-family:'franklin gothic';
+}
+footer {
+	display:flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-around; 
+	background-color:#844311;
+}
+.footer {
+  background-color:#844311;
+	padding-right: 8px;
+  font-family: 'franklin gothic';
+}
+#title {
+  background-color:#844311;
+}
+#about-me {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px;
+	justify-content: space-around;
+}
+#goose {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 20px;
+	justify-content: space-around;
+}
+#you-are-loved {
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 20px;
+	justify-content: space-around;
+}
+#self-portrait {
+	display:flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	padding: 20px;
+	justify-content: space-around;
+}
+.text {
+  text-align: center;
+  font-family:  'trebuchet ms';
+  margin:10px;
+}
+/*i dont know why the stupid colors aint working again for the default part of the buttons and i dont have time to fix it*/
+.bton {
+  background: #91b359;
+  background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+  border: none;
+}
+.bton:hover {
+   background: rgb(0,3,255);
+background: linear-gradient(0deg, #62953C 0%, #76BD3F 100%);
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.image {	background-size: contain;
+	max-width=100%;
+	border: 15px solid #965019;
+}
 
